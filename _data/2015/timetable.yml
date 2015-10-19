@@ -14,11 +14,11 @@
   title-i18n:  Vimのgitへの移行について(仮)
   details: T.B.D.
   details-i18n: T.B.D.
-  language: ja 
+  language: ja
   time: 30
-  slide_url: 
-  slide_backup_path: 
-  video_url: 
+  slide_url:
+  slide_backup_path:
+  video_url:
   speaker:
     name: MURAOKA Taro
     twitter: kaoriya
@@ -41,11 +41,11 @@
     So, I have developed deoplete.
     Deoplete is auto completion framework for neovim.
     I will describe the features and future works.
-  language: ja 
+  language: ja
   time: 40
-  slide_url: 
-  slide_backup_path: 
-  video_url: 
+  slide_url:
+  slide_backup_path:
+  video_url:
   speaker:
     name: Shougo
     twitter: ShougoMatsu
@@ -57,11 +57,11 @@
   title-i18n: Vimのバージョンを意識したVim scripting(仮)
   details: Vimのバージョンを意識したVim scripting(仮)
   details-i18n: Vimのバージョンを意識したVim scripting(仮)
-  language: ja 
+  language: ja
   time: 30
-  slide_url: 
-  slide_backup_path: 
-  video_url: 
+  slide_url:
+  slide_backup_path:
+  video_url:
   speaker:
     name: Vimうさぎさん
     twitter: rbtnn
@@ -78,13 +78,13 @@
   title-i18n: T.B.D.
   details: libcallかjavaあたりで何か話します
   details-i18n: libcallかjavaあたりで何か話します
-  language: ja 
+  language: ja
   time: 30
-  slide_url: 
-  slide_backup_path: 
-  video_url: 
+  slide_url:
+  slide_backup_path:
+  video_url:
   speaker:
-    name: kamichidu 
+    name: kamichidu
     twitter: kamichidu
     github: kamichidu
     avatar: https://avatars2.githubusercontent.com/u/571248?v=2&s=96
@@ -94,30 +94,77 @@
   title-i18n: Vim on Browser
   details: Vim runs on so many platforms, Linux, Unix, Windows, OS X, Android, iOS and so on. And now Vim is running even in web app on a browser. I'll talk about how to run Vim on browser and introduce some practical use cases.
   details-i18n: Vim は様々なプラットフォーム（Linux, Unix, Windows, OS X, Android, iOS などなど）で利用できます。そしてなんとブラウザ上のウェブアプリでも動かすことができます。Vim をどうやってブラウザ上で動かすのか、動かせると何が嬉しいのか実用例を示してお話しします．
-  language: ja 
+  language: ja
   time: 30
-  slide_url: 
-  slide_backup_path: 
-  video_url: 
+  slide_url:
+  slide_backup_path:
+  video_url:
   speaker:
     name: Linda_pp
     twitter: Linda_pp
     github: rhysd
     avatar: https://avatars0.githubusercontent.com/u/823277?v=2&s=96
 
+- type: presentation
+  title: Vim + Clojure
+  title-i18n: Vim + Clojure
+  details: How do you write codes in Clojure? There are some Vim plugins for Clojure, such as neoclojure, ft-clojure, slimv, paredit, sexp, fireplace, VimClojure, neoclojure, and many others. They have different focuses and implementations. Here this presentation introduces some of above and demonstrates Clojure programming.
+  details-i18n: How do you write codes in Clojure? There are some Vim plugins for Clojure, such as neoclojure, ft-clojure, slimv, paredit, sexp, fireplace, VimClojure, neoclojure, and many others. They have different focuses and implementations. Here this presentation introduces some of above and demonstrates Clojure programming.
+  language: en/ja
+  time: 40
+  slide_url:
+  slide_backup_path:
+  video_url:
+  speaker:
+    name: ujihisa
+    twitter: ujm
+    github: ujihisa
+    avatar: https://avatars2.githubusercontent.com/u/11504?v=3&s=96
+
+- type: presentation
+  title: Introduction of OmniSharp.vim (仮)
+  title-i18n: Introduction of OmniSharp.vim (仮)
+  details: TBD (Talk about OmniSharp.vim)
+  details-i18n: TBD (Talk about OmniSharp.vim)
+  language: ja
+  time: 30
+  slide_url:
+  slide_backup_path:
+  video_url:
+  speaker:
+    name: thinca
+    twitter: thinca
+    github: thinca
+    avatar: https://avatars3.githubusercontent.com/u/20474?v=3&s=96
+
+- type: presentation
+  title: power-assert in Vim script
+  title-i18n: Vim script版 power-assert について
+  details: I'll talk about "vital-power-assert", power-assert implementation in Vim script.
+  details-i18n: Vim script 版power-assert実装vital-power-assertのとその開発で得たVim script知見について話します
+  language: ja
+  time: 10 min (時間に余裕なさそうなら5分でよいです。)
+  slide_url:
+  slide_backup_path:
+  video_url:
+  speaker:
+    name: haya14busa
+    twitter: haya14busa
+    github: haya14busa
+    avatar: https://avatars0.githubusercontent.com/u/3797062?v=3&s=96
 
 #- type: presentation
 #  title: auto closing parenthesis
 #  title-i18n: 閉じカッコ自動入力について
-#  details: 閉じカッコ自動入力系プラグインや現在開発中の例のアレについて紹介 
+#  details: 閉じカッコ自動入力系プラグインや現在開発中の例のアレについて紹介
 #  details-i18n: 閉じカッコ自動入力系プラグインや現在開発中の例のアレについて紹介
-#  language: ja 
+#  language: ja
 #  time: 15
 #  slide_url: http://www.slideshare.net/cohama/auto-closing-parenthesis-vim-conf2014-41290298
 #  slide_backup_path: /slides/05_auto_closing_parenthesis__cohama.pdf
 #  video_url: https://www.youtube.com/watch?v=FjpxTL3925c&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=6
 #  speaker:
-#    name: cohama 
+#    name: cohama
 #    twitter: c0hama
 #    github: cohama
 #    avatar: https://avatars2.githubusercontent.com/u/348382?v=2&s=96
@@ -127,7 +174,7 @@
 #  title-i18n: 怖くないマクロ入門
 #  details: 怖くないマクロ入門
 #  details-i18n: 怖くないマクロ入門
-#  language: ja 
+#  language: ja
 #  time: 10
 #  slide_url: http://www.slideshare.net/deris0126/vimconf4
 #  slide_backup_path: /slides/06_怖くないマクロ入門__deris.pdf
@@ -150,13 +197,13 @@
 #  title-i18n: Test for Vim script
 #  details: T.B.D.
 #  details-i18n: T.B.D.
-#  language: ja 
+#  language: ja
 #  time: 25
 #  slide_url: https://gist.github.com/thinca/2cf4ae0df88a99423c9d
 #  slide_backup_path: /slides/07_Test_for_Vim_script_themis__thinca.md
 #  video_url: https://www.youtube.com/watch?v=2RPKEHtyK8c&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=8
 #  speaker:
-#    name: thinca 
+#    name: thinca
 #    twitter: thinca
 #    github: thinca
 #    avatar: https://avatars0.githubusercontent.com/u/20474?v=2&s=96
@@ -174,7 +221,7 @@
 #  title-i18n: かなりすごい発表（かなり）
 #  details: Vimが音を出すことによってどういった事が実現できるのかを発表します。
 #  details-i18n: Vimが音を出すことによってどういった事が実現できるのかを発表します。
-#  language: ja 
+#  language: ja
 #  time: 15
 #  slide_url: http://www.slideshare.net/supermomonga/super-cool-presentation-at-vimconf2014
 #  slide_backup_path: /slides/09_かなりすごい発表（かなり）__supermomonga.pdf
@@ -183,14 +230,14 @@
 #    name: supermomonga
 #    twitter: supermomonga
 #    github: supermomonga
-#    avatar: https://avatars3.githubusercontent.com/u/377137?v=2&s=96 
+#    avatar: https://avatars3.githubusercontent.com/u/377137?v=2&s=96
 #
 #- type: presentation
 #  title: XVim with MacVim and smartgrep
 #  title-i18n: XVimの簡単な紹介
 #  details: XVimの簡単な紹介、MacVimとXVimを同時に利用するときの方法、smartgrepについて
 #  details-i18n: XVimの簡単な紹介、MacVimとXVimを同時に利用するときの方法、smartgrepについて
-#  language: ja 
+#  language: ja
 #  time: 10
 #  slide_url: http://www.slideshare.net/pebble8888/using-xvim-with-macvim
 #  slide_backup_path: /slides/10_XVim_with_MacVim_and_smartgrep__pebble8888.pdf
@@ -206,7 +253,7 @@
 #  title-i18n: /-improved
 #  details: Vimデフォルトの機能から解説していくので初心者からわかる感じにしたい. 時間あれば検索系周りの拡張の紹介.
 #  details-i18n: Vimデフォルトの機能から解説していくので初心者からわかる感じにしたい. 時間あれば検索系周りの拡張の紹介.
-#  language: ja 
+#  language: ja
 #  time: 10
 #  slide_url: https://docs.google.com/presentation/d/1ie2VCSt9onXmoY3v_zxJdMjYJSbAelVR-QExdUQK-Tw/pub?start=false&loop=false&delayms=3000&slide=id.g4e7add63c_05
 #  slide_backup_path: /slides/11_search-improved__haya14busa.pdf
@@ -222,7 +269,7 @@
 #  title-i18n: vim script初心者に使ってもらいたい、転ばぬ先の杖「Vint」
 #  details: vim scriptにはつまずきどころが数多くありますが、これを効率的に回避するためのツール、「vint」を紹介します。既存のvim scriptのlintとしてpure vim scriptで実装された「viml-vimlint」がありますが、行数が大きくなりがちなvimrcなどで実用的な速度で動作してくれません。vintは実用的な速度で動作し、拡張性に富んだ新しいlintです。初心者の方に覚えて帰ってもらいたいのは使い方、ただそれだけです。上級者・神々にはlint ruleの実装協力をお願いしたいと思っています。
 #  details-i18n: vim scriptにはつまずきどころが数多くありますが、これを効率的に回避するためのツール、「vint」を紹介します。既存のvim scriptのlintとしてpure vim scriptで実装された「viml-vimlint」がありますが、行数が大きくなりがちなvimrcなどで実用的な速度で動作してくれません。vintは実用的な速度で動作し、拡張性に富んだ新しいlintです。初心者の方に覚えて帰ってもらいたいのは使い方、ただそれだけです。上級者・神々にはlint ruleの実装協力をお願いしたいと思っています。
-#  language: ja 
+#  language: ja
 #  time: 10
 #  slide_url: https://speakerdeck.com/orgachem/zhuan-banuxian-falsezhang-vint
 #  slide_backup_path: /slides/12_vim_script初心者に使ってもらいたい、転ばぬ先の杖「Vint」__Kuniwak.pdf
@@ -238,23 +285,23 @@
 #  title-i18n: Jenkins + vimenv で 最新のVimを使おう！
 #  details: いつの間にか動かなくなったあの機能、どのパッチから動かなくなったの？＞＜ ってことありますよね？ Jenkinsでパッチが増えるごとにビルドしておけばチェックが簡単！
 #  details-i18n: いつの間にか動かなくなったあの機能、どのパッチから動かなくなったの？＞＜ ってことありますよね？ Jenkinsでパッチが増えるごとにビルドしておけばチェックが簡単！
-#  language: ja 
+#  language: ja
 #  time: 10
 #  slide_url: http://www.slideshare.net/raa0121/jenkinsvimenv-vim-vimconf2014
 #  slide_backup_path: /slides/13_Jenkins_+_vimenv_で_最新のVimを使おう！__raa0121.pdf
 #  video_url: https://www.youtube.com/watch?v=6B-y1QriIEk&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=14
 #  speaker:
-#    name: raa0121 
-#    twitter: raa0121 
-#    github: raa0121 
+#    name: raa0121
+#    twitter: raa0121
+#    github: raa0121
 #    avatar: https://avatars1.githubusercontent.com/u/237271?v=2&s=96
 #
 #- type: interval
-#  title: Closing 
+#  title: Closing
 #  title-i18n: クロージング
 #  time: 10
 #- type: interval
-#  title: Preparing Party 
+#  title: Preparing Party
 #  title-i18n: 懇親会準備
 #  time: 10
 #- type: interval
